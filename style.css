@@ -1,0 +1,91 @@
+body{
+
+}
+
+header{
+    height: 100vh;
+    background-image: url('images/HERO.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.navbarre{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+.fondTransparent{
+    height: 10%;
+    background-color: #0000006b;
+}
+.lettreBleu{
+    color: #65d1ff;
+}
+.logo{
+    width: 50%;
+    color: white;
+}
+
+.liensPage{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.contour{
+    border: solid #65d1ff 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.liensPage, .liens{
+    font-size: large;
+    color: white;
+}
+
+.titreSite{
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    color: white;
+}
+.titreSouligne{
+    background-color: #0000004d;
+}
+
+.services{
+    background-color: rgb(8, 194, 251);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.titre{
+    margin-bottom: 0;
+    font-size: large;
+}
+.separation{
+    height: 2px;
+    background-color: white;
+    width: 35px;
+    margin-bottom: 50px;
+}
+.carteService{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.titreService{
+  margin-top: 10px;
+}
+.texteBlanc{
+    color: white;
+}
+.texteNoir{
+    color: black;
+}
+.noir{
+    background-color: black;
+}
