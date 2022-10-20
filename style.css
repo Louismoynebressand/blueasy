@@ -89,3 +89,49 @@ header{
 .noir{
     background-color: black;
 }
+
+.navPortfolio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoriePort{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+.portfolio{
+    padding-top: 50px;
+}
+.imagePortfolio{
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image1{
+    background-image: url('images/portfolio/1.png');
+}
+.image2{
+    background-image: url('images/portfolio/1.png');
+}
+.image3{
+    background-image: url('images/portfolio/1.png');
+}
+.image4{
+    background-image: url('images/portfolio/1.png');
+}
+.image5{
+    background-image: url('images/portfolio/1.png');
+}
+.image6{
+    background-image: url('images/portfolio/1.png');
+}
+.image7{
+    background-image: url('images/portfolio/1.png');
+}.image8{
+    background-image: url('images/portfolio/1.png');
+}
+
